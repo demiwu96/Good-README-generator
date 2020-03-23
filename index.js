@@ -7,16 +7,16 @@ const questions = [{
     name: "username"
 },
 {
-    message: "Label of your badge",
+    message: "Create at least one badge: label of your badge",
     name: "badgeLabel"
 },
 {
-    message: "Message of your badge",
+    message: "Create at least one badge: message of your badge",
     name: "badgeMsg"
 },
 {
     type: 'list',
-    message: "Color of your badge",
+    message: "Create at least one badge: color of your badge",
     name: "badgeColor",
     choices: ["brightgreen", "green", "yellowgreen", "yellow", "orange", "red", "blue", "lightgrey"]
 },
@@ -86,6 +86,7 @@ inquirer
                     email = "Sorry no email information";
                 }
 
+                // template of the README
                 const markDown = `
 # ${title}
 ## Badges
@@ -111,8 +112,10 @@ If you have any questions, please contact ${username}.
 <br>
 Email: ${email}
 `;
-
-                fs.writeFile("README-new.md", markDown, function (e) {
+                
+                // create the README.md through write file
+                const filename = `README-${title}.md`
+                fs.writeFile(filename, markDown, function (e) {
                     if (e) {
                         console.log(e);
                     } else {
