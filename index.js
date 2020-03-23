@@ -106,8 +106,9 @@ ${contributor}
 ![demo link](${demoURL})
 ## Questions
 If you have any questions, please contact ${username}.
+<img src="${avatar}" width="150">
+<br>
 Email: ${email}
-<img src="${avatar}" width:"120" />
 `;
 
                 fs.writeFile("README-new.md", markDown, function (e) {
