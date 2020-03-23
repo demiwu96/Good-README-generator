@@ -37,3 +37,4 @@ Yu-Hsuan Wu
 
 ## Demo
 ![demo](demo.gif)
+See example folder for the example README.md file
