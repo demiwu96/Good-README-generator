@@ -110,7 +110,7 @@ Email: ${email}
 <img src="${avatar}" width:120 />
 `;
 
-                fs.writeFile("README.md", markDown, function (e) {
+                fs.writeFile("README-new.md", markDown, function (e) {
                     if (e) {
                         console.log(e);
                     } else {

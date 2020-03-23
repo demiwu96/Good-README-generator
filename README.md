@@ -10,9 +10,9 @@
 * node.js
 
 ## npm
-file-system
-[axios](https://www.npmjs.com/package/axios)
-[inquirer](https://www.npmjs.com/package/inquirer)
+* file-system
+* [axios](https://www.npmjs.com/package/axios)
+* [inquirer](https://www.npmjs.com/package/inquirer)
 
 ## Credits
 Yu-Hsuan Wu
