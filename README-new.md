@@ -1,13 +1,13 @@
 
-# project 1
+# README generator
 ## Badges
-![badge](https://img.shields.io/badge/website-OK-brightgreen.svg)
+![badge](https://img.shields.io/badge/build-passing-orange.svg)
 ## Description
-group project
+create readme
 ## Table of Contents
 none
 ## Installation
-npm
+npm required
 ## Usage
 none
 ## License
@@ -17,6 +17,7 @@ demi
 ## Demo
 ![demo link](none)
 ## Questions
-If you have any questions, please contact gh0stl0nely.
+If you have any questions, please contact demiwu96.
+<img src="https://avatars3.githubusercontent.com/u/56731719?v=4" width="150">
+<br>
 Email: Sorry no email information
-<img src="https://avatars1.githubusercontent.com/u/23471813?v=4" width:"120" />
