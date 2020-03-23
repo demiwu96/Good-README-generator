@@ -1,9 +1,9 @@
 
-# Project 1
+# project 1
 ## Badges
-![badge](https://img.shields.io/badge/build-passing-green.svg)
+![badge](https://img.shields.io/badge/website-OK-brightgreen.svg)
 ## Description
-none
+group project
 ## Table of Contents
 none
 ## Installation
@@ -17,6 +17,6 @@ demi
 ## Demo
 ![demo link](none)
 ## Questions
-If you have any questions, please contact demiwu96.
+If you have any questions, please contact gh0stl0nely.
 Email: Sorry no email information
-<img src="https://avatars3.githubusercontent.com/u/56731719?v=4" width:120 />
+<img src="https://avatars1.githubusercontent.com/u/23471813?v=4" width:"120" />
