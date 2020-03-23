@@ -1,4 +1,4 @@
-# Good-README-generator
+# Good README Generator
 
 ## Description
 The users can create project-specific README.md through one command:
