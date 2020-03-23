@@ -106,6 +106,7 @@ ${contributor}
 ![demo link](${demoURL})
 ## Questions
 If you have any questions, please contact ${username}.
+<br>
 <img src="${avatar}" width="150">
 <br>
 Email: ${email}
