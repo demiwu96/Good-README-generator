@@ -34,3 +34,6 @@ The README will have the following sections:
 
 ## Credits
 Yu-Hsuan Wu
+
+## Demo
+![demo]("./demo.gif")
