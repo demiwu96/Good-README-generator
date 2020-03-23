@@ -60,10 +60,8 @@ inquirer
         const msg = response.badgeMsg;
         const color = response.badgeColor;
         const label = response.badgeLabel;
-        console.log(color);
         // create badge url
         const badgeURL = `https://img.shields.io/badge/${label}-${msg}-${color}`;
-        console.log(badgeURL);
 
         // information from inquirer for the README
         const title = response.title;
@@ -75,4 +73,49 @@ inquirer
         const contributor = response.contributor;
         const demoURL = response.demoURL;
 
+        // To get the user email and profile img
+        const username = response.username;
+        const queryUrl = `https://api.github.com/users/${username}`;
+        axios
+            .get(queryUrl)
+            .then(function (response) {
+                const data = response.data;
+                const avatar = data.avatar_url;
+                let email = data.email;
+                if (email == null) {
+                    email = "Sorry no email information";
+                }
+
+                const markDown = `
+# ${title}
+## Badges
+![badge](${badgeURL}.svg)
+## Description
+${description}
+## Table of Contents
+${contents}
+## Installation
+${installation}
+## Usage
+${usage}
+## License
+${license}
+## Contributing
+${contributor}
+## Demo
+![demo link](${demoURL})
+## Questions
+If you have any questions, please contact ${username}.
+Email: ${email}
+<img src="${avatar}" width:120 />
+`;
+
+                fs.writeFile("README.md", markDown, function (e) {
+                    if (e) {
+                        console.log(e);
+                    } else {
+                        console.log("Successful!");
+                    };
+                });
+            });
     });
