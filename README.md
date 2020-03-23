@@ -36,4 +36,4 @@ The README will have the following sections:
 Yu-Hsuan Wu
 
 ## Demo
-![demo]("./demo.gif")
+![demo]("demo.gif")
