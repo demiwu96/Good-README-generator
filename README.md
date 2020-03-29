@@ -36,6 +36,6 @@ The README will have the following sections:
 Yu-Hsuan Wu
 
 ## Demo
-![demo](demo.gif)
+![demo](./demo/demo.gif)
 <br>
 See example folder for the example README.md file
