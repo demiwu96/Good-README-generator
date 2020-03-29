@@ -23,8 +23,8 @@ The README will have the following sections:
     * Github email
 
 ## Built with
-* javaScript
-* node.js
+* JavaScript
+* Node.js
 
 ## Installation
 * npm required:
