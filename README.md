@@ -31,6 +31,11 @@ The README will have the following sections:
     * file-system
     * [axios](https://www.npmjs.com/package/axios)
     * [inquirer](https://www.npmjs.com/package/inquirer)
+    
+Run the following commend in the terminal to install the required npm:
+```sh
+npm install
+```
 
 ## Credits
 Yu-Hsuan Wu
